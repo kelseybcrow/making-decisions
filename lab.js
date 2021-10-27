@@ -102,6 +102,10 @@ for (let i = 1; i <= 10; i++) {
 
 //CODE HERE
 
+for (let i = 10; i >= 0; i--) {
+  console.log(i);
+}
+
 let score = 0;
 let passingScore = 7;
 
@@ -112,6 +116,10 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
+while (score < passingScore) {
+  console.log("Your score is not high enough");
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -124,10 +132,20 @@ let passingScore = 7;
 
 //CODE HERE
 
+let changeMyMind = true;
+if (changeMyMind) {
+  changeMyMind = false;
+} else {
+  changeMyMind = true;
+}
+
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
+
+changeMyMind = !changeMyMind;
+console.log(changeMyMind);
 
 ////////// ADVANCED PROBLEMS //////////
 
